@@ -2,8 +2,8 @@
 #include <WiFi.h>
 #include <PubSubClient.h> //segun la libreria se diseño para el esp8266, pero lo admite el esp32
 
-const char *ssid = "Kevin";
-const char *password = "nqs4085A";
+const char *ssid = "";
+const char *password = "";
 
 const char *mqtt_server = "udlabrokeriot.tk"; //http://broker.mqtt-dashboard.com/index.html
 const int mqtt_port = 1883;                   //TCP_URL
